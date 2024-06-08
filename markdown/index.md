@@ -5,7 +5,18 @@ date: '*EEC172 SQ24*'
 
 toc-title: 'Table of Contents'
 abstract-title: '<h2>Description</h2>'
-abstract: 'This project involves designing and implementing an accountability study timer using a CC3200 microcontroller, in order to promote focused and disciplined study habits. This device features an OLED to display visual timer tracking, an automatic screen brightness adjustment via a BH1750 light sensor, and an HC-SR04 ultrasonic distance sensor to detect user presence. Additionally, an IR receiver receives IR button signals from a remote that is then decoded in order to set the timer modes and time settings. A key component of functionality for this timer is a buzzer alert, which sets off when the user moves away from their desk and will not turn off until the user returns. There are two modes for the timer, break mode and study mode, in which break mode will let the controller know that the user is on break and will not alarm when they move away from their desk. Study mode includes the buzzer functionality. After the user completes their study session, the controller sends a summary of the user's study session via AWS through email.'
+abstract: 'Hydroponics is a technique where plants are grown in a nutrient-rich
+solution. This soil- free technique has been gaining traction recently
+due to its ability to optimize resource utilization. However, since
+plants are highly sensitive to changes in TDS, hydroponic setups require
+continuous TDS monitoring and adjustment. NutriSense, our device, allows
+hobbyists to achieve ideal hydroponics results on a small scale. It
+continuously monitors TDS and temperature, allowing the user to remotely
+read the status over AWS IoT cloud. The user can remotely enter upper
+and lower thresholds for TDS, and the device will automatically add
+nutrient solution or water to keep the TDS bounded by the thresholds.
+The device can also be configured to send notifications over SNS when
+the TDS value goes outside thresholds.
 <br/><br/>
 Our source code can be found 
 <!-- replace this link -->
